@@ -1,0 +1,227 @@
+/*reset
+------------------------------*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+th,
+td,
+figure {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+fieldset,
+img {
+  border: 0;
+}
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font: inherit;
+}
+input {
+  text-align: inherit;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+  vertical-align: top;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: none;
+}
+body {
+  background-color: #fff;
+  font: 14px/2 microsoft yahei,simsun,simhei,sans-serif;
+  color: #333;
+}
+
+:focus {
+  outline: none;
+}
+:link,
+:visited {
+  text-decoration: none;
+}
+
+a {
+  color: #757575;
+  text-decoration: none;
+}
+a:active,
+a:hover,
+a:focus {
+  outline: 0;
+}
+a:hover {
+  color: #ff6700;
+}
+/*reset end*/
+
+/*common css
+------------------------------*/
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  content: '';
+}
+
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.dv {
+  display: inline-block;
+  vertical-align: middle;
+
+  *display: inline;
+  *zoom: 1;
+}
+.di {
+  display: inline-block;
+
+  *display: inline;
+  *zoom: 1;
+}
+
+.cl {
+  overflow: hidden;
+
+  *zoom: 1;
+}
+
+.text-hide {
+  border: 0;
+  background-color: transparent;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+}
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  *display: inline;
+  *zoom: 1;
+}
+.btn:hover {
+  text-decoration: none;
+}
+/*common css end*/
